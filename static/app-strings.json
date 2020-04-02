@@ -1116,5 +1116,12 @@
   "Repost %count%": "Repost %count%",
   "File Description": "File Description",
   "View %count% reposts": "View %count% reposts",
-  "Preparing your content": "Preparing your content"
+  "Preparing your content": "Preparing your content",
+  "File Details": "File Details",
+  "You can unlock all or some of this LBC at any time.": "You can unlock all or some of this LBC at any time.",
+  "Keeping it locked improves the trust and discoverability of your content.": "Keeping it locked improves the trust and discoverability of your content.",
+  "It's usually only worth unlocking what you intend to use immediately. %learn_more%": "It's usually only worth unlocking what you intend to use immediately. %learn_more%",
+  "%amount% available to unlock": "%amount% available to unlock",
+  "%message% hihi": "%message% hihi",
+  "Comrade Yrbl, we have a problem": "Comrade Yrbl, we have a problem"
 }

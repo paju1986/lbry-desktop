@@ -244,6 +244,12 @@ img {
   border-radius: var(--border-radius);
 }
 
+.error-wrapper--no-overflow {
+  @extend .error-wrapper;
+  max-height: 10rem;
+  overflow: hidden;
+}
+
 .error-text {
   color: var(--color-text-error);
 }
