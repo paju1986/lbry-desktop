@@ -223,7 +223,10 @@ const Header = (props: Props) => {
               </MenuList>
             </Menu>
             {IS_WEB && !authenticated && (
-              <Button navigate={`/$/${PAGES.AUTH}`} button="primary" label={__('Sign In')} />
+              <div className="header__auth-buttons">
+                <Button navigate={`/$/${PAGES.AUTH_SIGNIN}`} button="link" label={__('Sign In')} />
+                <Button navigate={`/$/${PAGES.AUTH}`} button="primary" label={__('Sign Up')} />
+              </div>
             )}
           </div>
         ) : (

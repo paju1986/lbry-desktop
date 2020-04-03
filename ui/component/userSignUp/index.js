@@ -32,6 +32,11 @@ const select = state => ({
   fetchingChannels: selectFetchingMyChannels(state),
   youtubeChannels: selectYoutubeChannels(state),
   userFetchPending: selectUserIsPending(state),
+  syncEnabled: makeSelectClientSetting(SETTINGS.ENABLE_SYNC)(state),
+  syncingWallet: selectGetSyncIsPending(state),
+  getSyncError: selectGetSyncErrorMessage(state),
+  hasSynced: Boolean(selectSyncHash(state)),
+  creatingChannel: selectCreatingChannel(state),
 });
 
 const perform = dispatch => ({
